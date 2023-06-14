@@ -1,4 +1,5 @@
 Assignment name  : cpp_module02
+
 Expected files   : Warlock.cpp Warlock.hpp
                    ASpell.hpp ASpell.cpp
 				   ATarget.hpp ATarget.cpp
@@ -9,6 +10,7 @@ Expected files   : Warlock.cpp Warlock.hpp
 				   BrickWall.hpp BrickWall.cpp
 				   SpellBook.hpp SpellBook.cpp
 				   TargetGenerator.hpp TargetGenerator.cpp
+
 --------------------------------------------------------------------------------
 
 In the Warlock, SpellBook and TargetGenerator classes, the switch statement is

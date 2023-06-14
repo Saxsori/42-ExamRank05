@@ -11,11 +11,6 @@ std::string ASpell::getEffects(void) const
     return (effects);
 }
 
-ASpell::ASpell(void)
-{
-
-}
-
 ASpell::ASpell(const ASpell &a)
 {
     *this = a;
@@ -37,10 +32,4 @@ ASpell::ASpell(std::string name, std::string effect)
 void    ASpell::launch(const ATarget &a) const
 {
     a.getHitBySpell(*this);
-}
-
-
-ASpell::~ASpell()
-{
-
 }

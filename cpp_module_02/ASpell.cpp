@@ -1,6 +1,5 @@
 #include "ASpell.hpp"
 
-
 std::string ASpell::getName(void) const
 {
     return (name);
@@ -9,11 +8,6 @@ std::string ASpell::getName(void) const
 std::string ASpell::getEffects(void) const
 {
     return (effects);
-}
-
-ASpell::ASpell(void)
-{
-
 }
 
 ASpell::ASpell(const ASpell &a)
@@ -37,10 +31,4 @@ ASpell::ASpell(std::string name, std::string effect)
 void    ASpell::launch(const ATarget &a)
 {
     a.getHitBySpell(*this);
-}
-
-
-ASpell::~ASpell()
-{
-
 }

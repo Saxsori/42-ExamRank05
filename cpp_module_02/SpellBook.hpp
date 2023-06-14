@@ -13,8 +13,8 @@ class SpellBook
     SpellBook &operator=(const SpellBook &s);
     
     public:
-    SpellBook();
-    ~SpellBook();
+    SpellBook(){}
+    ~SpellBook(){}
     void learnSpell(ASpell *spell);
     void forgetSpell(std::string const &spell);
     ASpell* createSpell(std::string const &spell);

@@ -9,7 +9,7 @@ class BrickWall :public ATarget
     BrickWall();
     BrickWall(const BrickWall &d);
     BrickWall &operator=(const BrickWall &d);
-    ~BrickWall();
+    ~BrickWall(){}
     virtual BrickWall *clone() const;
 };
 

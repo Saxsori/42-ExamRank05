@@ -17,7 +17,7 @@ class ASpell
     std::string getName(void) const;
     std::string getEffects(void) const;
 
-    ASpell(void);
+    ASpell(void){}
     ASpell(const ASpell &a);
     ASpell &operator=(const ASpell &a);
     
@@ -27,7 +27,7 @@ class ASpell
 
     void    launch(const ATarget &a);
 
-    virtual ~ASpell();
+    virtual ~ASpell(){}
 };
 
 #endif

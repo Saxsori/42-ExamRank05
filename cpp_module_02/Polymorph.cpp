@@ -22,9 +22,3 @@ Polymorph &Polymorph::operator=(const Polymorph &f)
     this->name = f.name;
     return *this;
 }
-
-Polymorph::~Polymorph()
-{
-
-}
-

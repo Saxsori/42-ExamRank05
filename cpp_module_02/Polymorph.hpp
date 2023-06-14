@@ -9,7 +9,7 @@ class Polymorph :public ASpell
     Polymorph();
     Polymorph(const Polymorph &f);
     Polymorph &operator=(const Polymorph &f);
-    ~Polymorph();
+    ~Polymorph(){}
     virtual Polymorph *clone() const;
 };
 

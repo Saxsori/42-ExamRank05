@@ -6,11 +6,6 @@ const std::string &ATarget::getType(void) const
     return type;
 }
 
-ATarget::ATarget(void)
-{
-
-}
-
 ATarget::ATarget(const ATarget &a)
 {
     *this = a;
@@ -31,9 +26,4 @@ void    ATarget::getHitBySpell(const ASpell &spell) const
 {
 	std::cout << "kk" << std::endl;
     std::cout << this->type << " has been " << spell.getEffects() << "!" << std::endl;
-}
-
-ATarget::~ATarget()
-{
-
 }

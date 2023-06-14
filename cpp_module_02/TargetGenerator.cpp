@@ -1,15 +1,5 @@
 #include "TargetGenerator.hpp"
 
-TargetGenerator::TargetGenerator()
-{
-
-}
-
-TargetGenerator::~TargetGenerator()
-{
-
-}
-
 void    TargetGenerator::learnTargetType(ATarget *t)
 {
 	if (!t)

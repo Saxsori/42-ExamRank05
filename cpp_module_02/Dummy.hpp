@@ -9,7 +9,7 @@ class Dummy :public ATarget
     Dummy();
     Dummy(const Dummy &d);
     Dummy &operator=(const Dummy &d);
-    ~Dummy();
+    ~Dummy(){}
     virtual Dummy *clone() const;
 };
 

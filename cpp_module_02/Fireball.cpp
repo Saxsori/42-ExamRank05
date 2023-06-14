@@ -22,9 +22,3 @@ Fireball &Fireball::operator=(const Fireball &f)
     this->name = f.name;
     return *this;
 }
-
-Fireball::~Fireball()
-{
-
-}
-

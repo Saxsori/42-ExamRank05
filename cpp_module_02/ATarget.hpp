@@ -15,7 +15,7 @@ class ATarget
 
     const std::string &getType(void) const;
 
-    ATarget(void);
+    ATarget(void){}
     ATarget(const ATarget &a);
     ATarget &operator=(const ATarget &a);
     
@@ -25,7 +25,7 @@ class ATarget
     
     void    getHitBySpell(const ASpell &spell) const;
 
-    virtual ~ATarget();
+    virtual ~ATarget(){}
 };
 
 #endif

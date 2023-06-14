@@ -9,7 +9,7 @@ class Fireball :public ASpell
     Fireball();
     Fireball(const Fireball &f);
     Fireball &operator=(const Fireball &f);
-    ~Fireball();
+    ~Fireball(){}
     virtual Fireball *clone() const;
 };
 

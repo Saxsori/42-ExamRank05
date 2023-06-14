@@ -9,7 +9,7 @@ class Fwoosh :public ASpell
     Fwoosh();
     Fwoosh(const Fwoosh &f);
     Fwoosh &operator=(const Fwoosh &f);
-    ~Fwoosh();
+    ~Fwoosh(){}
     virtual Fwoosh *clone() const;
 };
 

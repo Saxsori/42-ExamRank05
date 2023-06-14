@@ -1,15 +1,5 @@
 #include "SpellBook.hpp"
 
-SpellBook::SpellBook()
-{
-
-}
-
-SpellBook::~SpellBook()
-{
-
-}
-
 void SpellBook::learnSpell(ASpell *spell)
 {
 	if (!spell)

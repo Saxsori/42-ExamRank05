@@ -16,11 +16,6 @@ Dummy &Dummy::operator=(const Dummy &d)
     return *this;
 }
 
-Dummy::~Dummy()
-{
-
-}
-
 Dummy *Dummy::clone() const
 {
     return new Dummy;

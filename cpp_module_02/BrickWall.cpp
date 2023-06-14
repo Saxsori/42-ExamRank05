@@ -16,11 +16,6 @@ BrickWall &BrickWall::operator=(const BrickWall &d)
     return *this;
 }
 
-BrickWall::~BrickWall()
-{
-
-}
-
 BrickWall *BrickWall::clone() const
 {
     return new BrickWall;

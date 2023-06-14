@@ -23,8 +23,3 @@ Fwoosh &Fwoosh::operator=(const Fwoosh &f)
     return *this;
 }
 
-Fwoosh::~Fwoosh()
-{
-
-}
-

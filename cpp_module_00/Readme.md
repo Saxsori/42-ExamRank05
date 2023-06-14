@@ -1,5 +1,7 @@
 Assignment name  : cpp_module_00
+
 Expected files   : Warlock.cpp Warlock.hpp
+
 --------------------------------------------------------------------------------
 
 Make a Warlock class. It has to be in Coplien's form.
